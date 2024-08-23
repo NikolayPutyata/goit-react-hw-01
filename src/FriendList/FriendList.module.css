@@ -1,0 +1,14 @@
+.friends-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.friends-list-item {
+}
+.friends-list-item-img {
+}
+.friends-list-item-name {
+}
+.friends-list-item-status {
+}
