@@ -2,7 +2,7 @@ import css from './FriendList.module.css';
 import FriendListItem from './FriendListItem.jsx';
 
 export default function FriendList({ list }) {
-  const array = list.map(friend => (
+  const arrayHtmlCode = list.map(friend => (
     <FriendListItem
       key={friend.id}
       avatar={friend.avatar}
@@ -11,5 +11,5 @@ export default function FriendList({ list }) {
     />
   ));
 
-  return <ul className={css['friends-list']}>{array}</ul>;
+  return <ul className={css['friends-list']}>{arrayHtmlCode}</ul>;
 }
