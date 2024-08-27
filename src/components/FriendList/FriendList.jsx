@@ -1,5 +1,5 @@
 import css from './FriendList.module.css';
-import FriendListItem from './FriendListItem.jsx';
+import FriendListItem from '../FriendListItem/FriendListItem.jsx';
 
 export default function FriendList({ list }) {
   const arrayHtmlCode = list.map(friend => (
